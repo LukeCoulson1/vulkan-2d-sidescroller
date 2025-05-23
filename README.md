@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vulkan 2D Side Scroller
 
 ## Overview
@@ -49,3 +50,7 @@ The project is organized into the following directories:
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+=======
+# vulkan-2d-sidescroller
+A 2d Vulkan game template
+>>>>>>> d4e88ed222a084ade03afbe29f95ac8e577d28e1
