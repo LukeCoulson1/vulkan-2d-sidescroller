@@ -7,7 +7,8 @@
         "${workspaceFolder}/src/game",
         "${workspaceFolder}/src/ui",
         "${workspaceFolder}/**",
-        "C:/Users/lukea/vcpkg/installed/x64-windows/include"
+        "C:/Users/lukea/vcpkg/installed/x64-windows/include", // <-- This should already include GLEW if installed via vcpkg
+        //"C:/path/to/glew/include" // <-- Add this if you have a separate GLEW install
       ],
       "defines": [],
       "windowsSdkVersion": "10.0.19041.0",

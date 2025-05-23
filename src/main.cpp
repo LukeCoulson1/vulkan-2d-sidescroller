@@ -1,14 +1,10 @@
 #include <GLFW/glfw3.h>
 #include "game/Game.h"
-#include <iostream>
-#include <vector>
-#include <string>
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
-#include <GL/freeglut.h>
-#include "ui/Button.h"
 #include "ui/Menu.h"
 #include "ui/SettingsMenu.h"
+#include "ui/ResourceManager.h"
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
 
 // Settings UI state
 struct SettingsState {
@@ -47,32 +43,6 @@ GLuint loadTexture(const char* filename) {
     return tex;
 }
 
-bool isMouseOver(float x, float y, float w, float h, double mx, double my) {
-    return mx >= x && mx <= x + w && my >= y && my <= y + h;
-}
-
-void drawRect(float x, float y, float w, float h, float r, float g, float b) {
-    glColor3f(r, g, b);
-    glBegin(GL_QUADS);
-        glVertex2f(x, y);
-        glVertex2f(x + w, y);
-        glVertex2f(x + w, y + h);
-        glVertex2f(x, y + h);
-    glEnd();
-}
-
-void drawButton(float x, float y, float w, float h, GLuint texture, bool hovered) {
-    glEnable(GL_TEXTURE_2D);
-    glBindTexture(GL_TEXTURE_2D, texture);
-    glColor3f(hovered ? 0.8f : 1.0f, hovered ? 0.8f : 1.0f, hovered ? 0.8f : 1.0f);
-    glBegin(GL_QUADS);
-        glTexCoord2f(0, 0); glVertex2f(x, y);
-        glTexCoord2f(1, 0); glVertex2f(x + w, y);
-        glTexCoord2f(1, 1); glVertex2f(x + w, y + h);
-        glTexCoord2f(0, 1); glVertex2f(x, y + h);
-    glEnd();
-    glDisable(GL_TEXTURE_2D);
-}
 
 void updateOrtho(GLFWwindow* window) {
     // Use a fixed virtual resolution
@@ -84,20 +54,6 @@ void updateOrtho(GLFWwindow* window) {
     glMatrixMode(GL_MODELVIEW);
 }
 
-void drawMenu(int virtualWidth, int virtualHeight, GLuint newGameTex, GLuint settingsTex, double mx, double my, bool& hoverNew, bool& hoverSettings) {
-    // Use fixed sizes and positions in virtual space
-    float btnW = 200;
-    float btnH = 60;
-    float btnX = (virtualWidth - btnW) / 2.0f; // Centered
-    float newGameY = 360;
-    float settingsY = 240;
-
-    hoverNew = isMouseOver(btnX, newGameY, btnW, btnH, mx, my);
-    hoverSettings = isMouseOver(btnX, settingsY, btnW, btnH, mx, my);
-
-    drawButton(btnX, newGameY, btnW, btnH, newGameTex, hoverNew);
-    drawButton(btnX, settingsY, btnW, btnH, settingsTex, hoverSettings);
-}
 
 void drawSettingsMenu(SettingsState& settings, int virtualWidth, int virtualHeight, GLuint backTex, double mx, double my, bool& hoverBack, bool& hoverDrop, bool& hoverCB, int& hoverOption) {
     glClear(GL_COLOR_BUFFER_BIT);
@@ -134,21 +90,6 @@ void drawSettingsMenu(SettingsState& settings, int virtualWidth, int virtualHeig
         }
     }
 
-    // Fullscreen checkbox
-    float cbS = dropH;
-    float cbX = dropX;
-    float cbY = dropY - dropH * 2;
-    hoverCB = isMouseOver(cbX, cbY, cbS, cbS, mx, my);
-    drawRect(cbX, cbY, cbS, cbS, hoverCB ? 0.4f : 0.2f, 0.7f, 0.4f);
-    if (settings.fullscreen) {
-        glColor3f(0, 1, 0);
-        glBegin(GL_LINES);
-            glVertex2f(cbX, cbY);
-            glVertex2f(cbX + cbS, cbY + cbS);
-            glVertex2f(cbX + cbS, cbY);
-            glVertex2f(cbX, cbY + cbS);
-        glEnd();
-    }
     // Label for checkbox
     glColor3f(1, 1, 1);
     glRasterPos2f(cbX + cbS + 10, cbY + cbS / 2);
@@ -182,7 +123,7 @@ int main() {
     glutInit(&argc, argv);
 
     // Load button textures (corrected paths for your setup)
-    GLuint newGameTex = loadTexture("../../img/New_Game.png");
+    GLuint newGameTex = ResourceManager::loadTexture("../../img/New_Game.png");
     GLuint settingsTex = loadTexture("../../img/Settings.png");
     GLuint backTex = loadTexture("../../img/New_Game.png"); // Placeholder
 
@@ -259,6 +200,7 @@ int main() {
     }
 
     game.cleanup();
+    ResourceManager::clear();
     glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
