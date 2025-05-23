@@ -120,11 +120,18 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/SelectLibraryConfigurations.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/freeglut/FreeGLUTConfig.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/freeglut/FreeGLUTConfigVersion.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/freeglut/FreeGLUTTargets-debug.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/freeglut/FreeGLUTTargets-release.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/freeglut/FreeGLUTTargets.cmake
+C:/Users/lukea/vcpkg/installed/x64-windows/share/glew/CopyImportedTargetProperties.cmake
+C:/Users/lukea/vcpkg/installed/x64-windows/share/glew/glew-config.cmake
+C:/Users/lukea/vcpkg/installed/x64-windows/share/glew/glew-targets-debug.cmake
+C:/Users/lukea/vcpkg/installed/x64-windows/share/glew/glew-targets-release.cmake
+C:/Users/lukea/vcpkg/installed/x64-windows/share/glew/glew-targets.cmake
+C:/Users/lukea/vcpkg/installed/x64-windows/share/glew/vcpkg-cmake-wrapper.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
 C:/Users/lukea/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake

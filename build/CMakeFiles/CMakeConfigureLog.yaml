@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-      Build started 5/23/2025 3:23:14 PM.
+      Build started 5/23/2025 4:11:37 PM.
       
       Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -58,7 +58,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.80
+      Time Elapsed 00:00:00.70
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -84,7 +84,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-      Build started 5/23/2025 3:23:15 PM.
+      Build started 5/23/2025 4:11:38 PM.
       
       Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -118,7 +118,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.99
+      Time Elapsed 00:00:00.67
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -137,8 +137,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-5bqtnp"
-      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-5bqtnp"
+      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-qz0ngq"
+      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-qz0ngq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -151,40 +151,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-5bqtnp'
+        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-qz0ngq'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_953ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5cd3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 3:23:16 PM.
+        Build started 5/23/2025 4:11:39 PM.
         
-        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqtnp\\cmTC_953ce.vcxproj" on node 1 (default targets).
+        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz0ngq\\cmTC_5cd3a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_953ce.dir\\Debug\\".
+          Creating directory "cmTC_5cd3a.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqtnp\\Debug\\".
-          Creating directory "cmTC_953ce.dir\\Debug\\cmTC_953ce.tlog\\".
+          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz0ngq\\Debug\\".
+          Creating directory "cmTC_5cd3a.dir\\Debug\\cmTC_5cd3a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_953ce.dir\\Debug\\cmTC_953ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_953ce.dir\\Debug\\cmTC_953ce.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5cd3a.dir\\Debug\\cmTC_5cd3a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5cd3a.dir\\Debug\\cmTC_5cd3a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_953ce.dir\\Debug\\\\" /Fd"cmTC_953ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5cd3a.dir\\Debug\\\\" /Fd"cmTC_5cd3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_953ce.dir\\Debug\\\\" /Fd"cmTC_953ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5cd3a.dir\\Debug\\\\" /Fd"cmTC_5cd3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqtnp\\Debug\\cmTC_953ce.exe" /INCREMENTAL /ILK:"cmTC_953ce.dir\\Debug\\cmTC_953ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-5bqtnp/Debug/cmTC_953ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-5bqtnp/Debug/cmTC_953ce.lib" /MACHINE:X64  /machine:x64 cmTC_953ce.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_953ce.vcxproj -> F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqtnp\\Debug\\cmTC_953ce.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz0ngq\\Debug\\cmTC_5cd3a.exe" /INCREMENTAL /ILK:"cmTC_5cd3a.dir\\Debug\\cmTC_5cd3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-qz0ngq/Debug/cmTC_5cd3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-qz0ngq/Debug/cmTC_5cd3a.lib" /MACHINE:X64  /machine:x64 cmTC_5cd3a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5cd3a.vcxproj -> F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz0ngq\\Debug\\cmTC_5cd3a.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_953ce.dir\\Debug\\cmTC_953ce.tlog\\unsuccessfulbuild".
-          Touching "cmTC_953ce.dir\\Debug\\cmTC_953ce.tlog\\cmTC_953ce.lastbuildstate".
-        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqtnp\\cmTC_953ce.vcxproj" (default targets).
+          Deleting file "cmTC_5cd3a.dir\\Debug\\cmTC_5cd3a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5cd3a.dir\\Debug\\cmTC_5cd3a.tlog\\cmTC_5cd3a.lastbuildstate".
+        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qz0ngq\\cmTC_5cd3a.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.26
+        Time Elapsed 00:00:00.27
         
       exitCode: 0
   -
@@ -224,8 +224,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-fcx54u"
-      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-fcx54u"
+      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-kokh7j"
+      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-kokh7j"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -239,40 +239,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-fcx54u'
+        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-kokh7j'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_873d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c67e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 3:23:17 PM.
+        Build started 5/23/2025 4:11:39 PM.
         
-        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcx54u\\cmTC_873d8.vcxproj" on node 1 (default targets).
+        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kokh7j\\cmTC_7c67e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_873d8.dir\\Debug\\".
+          Creating directory "cmTC_7c67e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcx54u\\Debug\\".
-          Creating directory "cmTC_873d8.dir\\Debug\\cmTC_873d8.tlog\\".
+          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kokh7j\\Debug\\".
+          Creating directory "cmTC_7c67e.dir\\Debug\\cmTC_7c67e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_873d8.dir\\Debug\\cmTC_873d8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_873d8.dir\\Debug\\cmTC_873d8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7c67e.dir\\Debug\\cmTC_7c67e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7c67e.dir\\Debug\\cmTC_7c67e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_873d8.dir\\Debug\\\\" /Fd"cmTC_873d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c67e.dir\\Debug\\\\" /Fd"cmTC_7c67e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_873d8.dir\\Debug\\\\" /Fd"cmTC_873d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c67e.dir\\Debug\\\\" /Fd"cmTC_7c67e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcx54u\\Debug\\cmTC_873d8.exe" /INCREMENTAL /ILK:"cmTC_873d8.dir\\Debug\\cmTC_873d8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-fcx54u/Debug/cmTC_873d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-fcx54u/Debug/cmTC_873d8.lib" /MACHINE:X64  /machine:x64 cmTC_873d8.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_873d8.vcxproj -> F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcx54u\\Debug\\cmTC_873d8.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kokh7j\\Debug\\cmTC_7c67e.exe" /INCREMENTAL /ILK:"cmTC_7c67e.dir\\Debug\\cmTC_7c67e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-kokh7j/Debug/cmTC_7c67e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-kokh7j/Debug/cmTC_7c67e.lib" /MACHINE:X64  /machine:x64 cmTC_7c67e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7c67e.vcxproj -> F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kokh7j\\Debug\\cmTC_7c67e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_873d8.dir\\Debug\\cmTC_873d8.tlog\\unsuccessfulbuild".
-          Touching "cmTC_873d8.dir\\Debug\\cmTC_873d8.tlog\\cmTC_873d8.lastbuildstate".
-        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcx54u\\cmTC_873d8.vcxproj" (default targets).
+          Deleting file "cmTC_7c67e.dir\\Debug\\cmTC_7c67e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7c67e.dir\\Debug\\cmTC_7c67e.tlog\\cmTC_7c67e.lastbuildstate".
+        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kokh7j\\cmTC_7c67e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.27
+        Time Elapsed 00:00:00.26
         
       exitCode: 0
   -
@@ -318,8 +318,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-it0oen"
-      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-it0oen"
+      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-wtqujl"
+      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-wtqujl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -332,35 +332,35 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-it0oen'
+        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-wtqujl'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec637.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f8b45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 3:23:18 PM.
+        Build started 5/23/2025 4:11:40 PM.
         
-        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\cmTC_ec637.vcxproj" on node 1 (default targets).
+        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\cmTC_f8b45.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ec637.dir\\Debug\\".
+          Creating directory "cmTC_f8b45.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\Debug\\".
-          Creating directory "cmTC_ec637.dir\\Debug\\cmTC_ec637.tlog\\".
+          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\Debug\\".
+          Creating directory "cmTC_f8b45.dir\\Debug\\cmTC_f8b45.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ec637.dir\\Debug\\cmTC_ec637.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ec637.dir\\Debug\\cmTC_ec637.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f8b45.dir\\Debug\\cmTC_f8b45.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f8b45.dir\\Debug\\cmTC_f8b45.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec637.dir\\Debug\\\\" /Fd"cmTC_ec637.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8b45.dir\\Debug\\\\" /Fd"cmTC_f8b45.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec637.dir\\Debug\\\\" /Fd"cmTC_ec637.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8b45.dir\\Debug\\\\" /Fd"cmTC_f8b45.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\src.c"
           src.c
-        F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\cmTC_ec637.vcxproj]
-        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\cmTC_ec637.vcxproj" (default targets) -- FAILED.
+        F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\cmTC_f8b45.vcxproj]
+        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\cmTC_f8b45.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\cmTC_ec637.vcxproj" (default target) (1) ->
+        "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\cmTC_f8b45.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-it0oen\\cmTC_ec637.vcxproj]
+          F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtqujl\\cmTC_f8b45.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -382,8 +382,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-8rsovz"
-      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-8rsovz"
+      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-3ho58p"
+      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-3ho58p"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -396,37 +396,37 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-8rsovz'
+        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-3ho58p'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b5899.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f675a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 3:23:18 PM.
+        Build started 5/23/2025 4:11:40 PM.
         
-        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\cmTC_b5899.vcxproj" on node 1 (default targets).
+        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\cmTC_f675a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b5899.dir\\Debug\\".
+          Creating directory "cmTC_f675a.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\Debug\\".
-          Creating directory "cmTC_b5899.dir\\Debug\\cmTC_b5899.tlog\\".
+          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\Debug\\".
+          Creating directory "cmTC_f675a.dir\\Debug\\cmTC_f675a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b5899.dir\\Debug\\cmTC_b5899.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b5899.dir\\Debug\\cmTC_b5899.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f675a.dir\\Debug\\cmTC_f675a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f675a.dir\\Debug\\cmTC_f675a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5899.dir\\Debug\\\\" /Fd"cmTC_b5899.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f675a.dir\\Debug\\\\" /Fd"cmTC_f675a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5899.dir\\Debug\\\\" /Fd"cmTC_b5899.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f675a.dir\\Debug\\\\" /Fd"cmTC_f675a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\Debug\\cmTC_b5899.exe" /INCREMENTAL /ILK:"cmTC_b5899.dir\\Debug\\cmTC_b5899.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-8rsovz/Debug/cmTC_b5899.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-8rsovz/Debug/cmTC_b5899.lib" /MACHINE:X64  /machine:x64 cmTC_b5899.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\cmTC_b5899.vcxproj]
-        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\cmTC_b5899.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\Debug\\cmTC_f675a.exe" /INCREMENTAL /ILK:"cmTC_f675a.dir\\Debug\\cmTC_f675a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-3ho58p/Debug/cmTC_f675a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-3ho58p/Debug/cmTC_f675a.lib" /MACHINE:X64  /machine:x64 cmTC_f675a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\cmTC_f675a.vcxproj]
+        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\cmTC_f675a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\cmTC_b5899.vcxproj" (default target) (1) ->
+        "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\cmTC_f675a.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rsovz\\cmTC_b5899.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3ho58p\\cmTC_f675a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -448,8 +448,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-gwyiip"
-      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-gwyiip"
+      source: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-jewwwp"
+      binary: "F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-jewwwp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -462,42 +462,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-gwyiip'
+        Change Dir: 'F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-jewwwp'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43dea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64092.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 5/23/2025 3:23:18 PM.
+        Build started 5/23/2025 4:11:41 PM.
         
-        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\cmTC_43dea.vcxproj" on node 1 (default targets).
+        Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\cmTC_64092.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_43dea.dir\\Debug\\".
+          Creating directory "cmTC_64092.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\Debug\\".
-          Creating directory "cmTC_43dea.dir\\Debug\\cmTC_43dea.tlog\\".
+          Creating directory "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\Debug\\".
+          Creating directory "cmTC_64092.dir\\Debug\\cmTC_64092.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_43dea.dir\\Debug\\cmTC_43dea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_43dea.dir\\Debug\\cmTC_43dea.tlog\\unsuccessfulbuild".
+          Creating "cmTC_64092.dir\\Debug\\cmTC_64092.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_64092.dir\\Debug\\cmTC_64092.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43dea.dir\\Debug\\\\" /Fd"cmTC_43dea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64092.dir\\Debug\\\\" /Fd"cmTC_64092.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43dea.dir\\Debug\\\\" /Fd"cmTC_43dea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64092.dir\\Debug\\\\" /Fd"cmTC_64092.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\Debug\\cmTC_43dea.exe" /INCREMENTAL /ILK:"cmTC_43dea.dir\\Debug\\cmTC_43dea.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-gwyiip/Debug/cmTC_43dea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-gwyiip/Debug/cmTC_43dea.lib" /MACHINE:X64  /machine:x64 cmTC_43dea.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\cmTC_43dea.vcxproj]
-        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\cmTC_43dea.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\Debug\\cmTC_64092.exe" /INCREMENTAL /ILK:"cmTC_64092.dir\\Debug\\cmTC_64092.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-jewwwp/Debug/cmTC_64092.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/vulkan-2d-sidescroller/build/CMakeFiles/CMakeScratch/TryCompile-jewwwp/Debug/cmTC_64092.lib" /MACHINE:X64  /machine:x64 cmTC_64092.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\cmTC_64092.vcxproj]
+        Done Building Project "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\cmTC_64092.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\cmTC_43dea.vcxproj" (default target) (1) ->
+        "F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\cmTC_64092.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwyiip\\cmTC_43dea.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\vulkan-2d-sidescroller\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jewwwp\\cmTC_64092.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.21
+        Time Elapsed 00:00:00.26
         
       exitCode: 1
 ...

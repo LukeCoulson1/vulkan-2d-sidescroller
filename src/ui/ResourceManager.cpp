@@ -1,8 +1,12 @@
 #include "ResourceManager.h"
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
-#include <GL/glew.h>
-#include <GL/gl.h>
+#include <stb_image.h>
+
+#ifdef _WIN32
+#include <windows.h>
+#endif
+#include <GL/glew.h>   // GLEW must be included before gl.h
+// Do NOT include <GL/gl.h> after GLEW! GLEW includes it for you.
 
 std::unordered_map<std::string, GLuint> ResourceManager::textures;
 

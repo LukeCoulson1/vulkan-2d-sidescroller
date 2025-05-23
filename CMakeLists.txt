@@ -18,6 +18,9 @@ find_package(OpenGL REQUIRED)
 # Find FreeGLUT via vcpkg
 find_package(FreeGLUT CONFIG REQUIRED)
 
+# Find GLEW via vcpkg
+find_package(GLEW REQUIRED)
+
 # Source files
 set(SOURCES
     src/main.cpp
@@ -26,6 +29,7 @@ set(SOURCES
     src/entities/Player.cpp
     src/entities/Enemy.cpp
     src/utils/Utils.cpp
+    src/ui/ResourceManager.cpp
 )
 
 # Create the executable
@@ -38,5 +42,5 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     include
 )
 
-# Link Vulkan, GLFW, GLM, OpenGL, and FreeGLUT (for menu and text)
-target_link_libraries(${PROJECT_NAME} PRIVATE Vulkan::Vulkan glfw glm::glm OpenGL::GL FreeGLUT::freeglut)
+# Link Vulkan, GLFW, GLM, OpenGL, FreeGLUT, and GLEW
+target_link_libraries(${PROJECT_NAME} PRIVATE Vulkan::Vulkan glfw glm::glm OpenGL::GL FreeGLUT::freeglut GLEW::GLEW)

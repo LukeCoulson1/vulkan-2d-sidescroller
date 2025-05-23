@@ -1,7 +1,7 @@
 #pragma once
-#include <GL/gl.h>
 #include <string>
 #include <unordered_map>
+#include <GL/glew.h>
 
 class ResourceManager {
 public:
