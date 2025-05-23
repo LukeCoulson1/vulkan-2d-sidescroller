@@ -1,0 +1,6 @@
+F:\vulkan-2d-sidescroller\src\main.cpp;F:\vulkan-2d-sidescroller\build\vulkan-2d-sidescroller.dir\Debug\main.obj
+F:\vulkan-2d-sidescroller\src\game\Game.cpp;F:\vulkan-2d-sidescroller\build\vulkan-2d-sidescroller.dir\Debug\Game.obj
+F:\vulkan-2d-sidescroller\src\renderer\VulkanRenderer.cpp;F:\vulkan-2d-sidescroller\build\vulkan-2d-sidescroller.dir\Debug\VulkanRenderer.obj
+F:\vulkan-2d-sidescroller\src\entities\Player.cpp;F:\vulkan-2d-sidescroller\build\vulkan-2d-sidescroller.dir\Debug\Player.obj
+F:\vulkan-2d-sidescroller\src\entities\Enemy.cpp;F:\vulkan-2d-sidescroller\build\vulkan-2d-sidescroller.dir\Debug\Enemy.obj
+F:\vulkan-2d-sidescroller\src\utils\Utils.cpp;F:\vulkan-2d-sidescroller\build\vulkan-2d-sidescroller.dir\Debug\Utils.obj

@@ -1,0 +1,10 @@
+^F:\VULKAN-2D-SIDESCROLLER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/vulkan-2d-sidescroller -BF:/vulkan-2d-sidescroller/build --check-stamp-file F:/vulkan-2d-sidescroller/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

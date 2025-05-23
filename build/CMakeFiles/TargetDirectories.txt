@@ -1,0 +1,3 @@
+F:/vulkan-2d-sidescroller/build/CMakeFiles/vulkan-2d-sidescroller.dir
+F:/vulkan-2d-sidescroller/build/CMakeFiles/ALL_BUILD.dir
+F:/vulkan-2d-sidescroller/build/CMakeFiles/ZERO_CHECK.dir
