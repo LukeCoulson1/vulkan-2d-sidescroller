@@ -7,7 +7,7 @@
         "${workspaceFolder}/src/game",
         "${workspaceFolder}/src/ui",
         "${workspaceFolder}/**",
-        "C:/Users/<yourname>/vcpkg/installed/x64-windows/include"
+        "C:/Users/lukea/vcpkg/installed/x64-windows/include"
       ],
       "defines": [],
       "windowsSdkVersion": "10.0.19041.0",
