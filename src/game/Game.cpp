@@ -40,3 +40,8 @@ void Game::cleanup() {
     player.cleanup();
     enemy.cleanup();
 }
+
+void Game::onResize(int width, int height) {
+    // Recenter or reposition your game objects here as needed
+    // Example: player.x = width / 2; player.y = height / 2;
+}

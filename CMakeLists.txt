@@ -12,6 +12,12 @@ find_package(glfw3 CONFIG REQUIRED)
 # Find GLM via vcpkg
 find_package(glm CONFIG REQUIRED)
 
+# Find OpenGL (required for FreeGLUT)
+find_package(OpenGL REQUIRED)
+
+# Find FreeGLUT via vcpkg
+find_package(FreeGLUT CONFIG REQUIRED)
+
 # Source files
 set(SOURCES
     src/main.cpp
@@ -32,5 +38,5 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     include
 )
 
-# Link Vulkan, GLFW, GLM, and OpenGL (for menu)
-target_link_libraries(${PROJECT_NAME} PRIVATE Vulkan::Vulkan glfw glm::glm opengl32)
+# Link Vulkan, GLFW, GLM, OpenGL, and FreeGLUT (for menu and text)
+target_link_libraries(${PROJECT_NAME} PRIVATE Vulkan::Vulkan glfw glm::glm OpenGL::GL FreeGLUT::freeglut)

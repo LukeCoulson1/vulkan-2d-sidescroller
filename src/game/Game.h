@@ -4,8 +4,10 @@
 #include "../entities/Player.h"
 #include "../entities/Enemy.h"
 
+// Add SETTINGS to GameState
 enum class GameState {
     MENU,
+    SETTINGS,
     PLAYING
 };
 
@@ -17,8 +19,9 @@ public:
     void render();
     void run();
     void cleanup();
+    void onResize(int width, int height); // <-- Add this line
 
-    GameState state = GameState::MENU; // Add this line
+    GameState state = GameState::MENU;
 
 private:
     bool isRunning;
