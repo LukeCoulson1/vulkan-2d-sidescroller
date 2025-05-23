@@ -6,6 +6,9 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 #include <GL/freeglut.h>
+#include "ui/Button.h"
+#include "ui/Menu.h"
+#include "ui/SettingsMenu.h"
 
 // Settings UI state
 struct SettingsState {
@@ -192,6 +195,13 @@ int main() {
     const int virtualWidth = 800;
     const int virtualHeight = 600;
 
+    // Menu object
+    Menu mainMenu;
+    mainMenu.addButton((virtualWidth - 200) / 2.0f, 360, 200, 60, newGameTex, "New Game");
+    mainMenu.addButton((virtualWidth - 200) / 2.0f, 240, 200, 60, settingsTex, "Settings");
+
+    SettingsMenu settingsMenu(backTex, virtualWidth, virtualHeight);
+
     while (!glfwWindowShouldClose(window)) {
         int fbWidth, fbHeight;
         glfwGetFramebufferSize(window, &fbWidth, &fbHeight);
@@ -214,74 +224,31 @@ int main() {
         double mx_virtual = normX * virtualWidth;
         double my_virtual = (1.0 - normY) * virtualHeight;
 
+        // Check for mouse button press (single frame detection)
+        static bool mousePressed = false;
+        if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
+            mousePressed = true;
+        } else {
+            mousePressed = false;
+        }
+
         if (state == GameState::MENU) {
-            bool hoverNew = false, hoverSettings = false;
-            drawMenu(virtualWidth, virtualHeight, newGameTex, settingsTex, mx_virtual, my_virtual, hoverNew, hoverSettings);
+            // Menu interaction
+            mainMenu.updateHover(mx_virtual, my_virtual);
+            mainMenu.draw();
+
+            int clicked = mainMenu.getClicked(mx_virtual, my_virtual, mousePressed);
+            if (clicked == 0) state = GameState::PLAYING;
+            if (clicked == 1) state = GameState::SETTINGS;
+
             glfwSwapBuffers(window);
             glfwPollEvents();
-
-            if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
-                if (hoverNew) {
-                    state = GameState::PLAYING;
-                }
-                if (hoverSettings) {
-                    state = GameState::SETTINGS;
-                }
-            }
         } else if (state == GameState::SETTINGS) {
-            bool hoverBack = false, hoverDrop = false, hoverCB = false;
-            int hoverOption = -1;
-            drawSettingsMenu(settings, virtualWidth, virtualHeight, backTex, mx_virtual, my_virtual, hoverBack, hoverDrop, hoverCB, hoverOption);
-            glfwSwapBuffers(window);
-            glfwPollEvents();
-
-            // Dropdown logic (all in virtual coordinates)
-            float dropW = 200.0f;
-            float dropH = 40.0f;
-            float dropX = (virtualWidth - dropW) / 2.0f;
-            float dropY = virtualHeight * 0.58f;
-            float cbS = dropH;
-            float cbX = dropX;
-            float cbY = dropY - dropH * 2;
-            float btnW = 200.0f;
-            float btnH = 50.0f;
-            float btnX = (virtualWidth - btnW) / 2.0f;
-            float backY = virtualHeight * 0.15f;
-
-            if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
-                if (settings.dropdownOpen && hoverOption != -1) {
-                    settings.selectedResolution = hoverOption;
-                    settings.dropdownOpen = false;
-                    // Change window size if not fullscreen
-                    if (!settings.fullscreen) {
-                        glfwSetWindowSize(window, resolutions[hoverOption].first, resolutions[hoverOption].second);
-                        updateOrtho(window);
-                        game.onResize(resolutions[hoverOption].first, resolutions[hoverOption].second);
-                    }
-                } else if (hoverDrop) {
-                    settings.dropdownOpen = !settings.dropdownOpen;
-                } else if (hoverCB) {
-                    bool wasFullscreen = settings.fullscreen;
-                    settings.fullscreen = !settings.fullscreen;
-                    if (settings.fullscreen) {
-                        // Enter fullscreen
-                        GLFWmonitor* monitor = glfwGetPrimaryMonitor();
-                        const GLFWvidmode* mode = glfwGetVideoMode(monitor);
-                        glfwSetWindowMonitor(window, monitor, 0, 0, mode->width, mode->height, mode->refreshRate);
-                        updateOrtho(window);
-                        game.onResize(mode->width, mode->height);
-                    } else if (wasFullscreen) {
-                        // Leave fullscreen: restore windowed mode at selected resolution
-                        auto res = resolutions[settings.selectedResolution];
-                        glfwSetWindowMonitor(window, nullptr, 100, 100, res.first, res.second, 0);
-                        updateOrtho(window);
-                        game.onResize(res.first, res.second);
-                    }
-                } else if (hoverBack) {
-                    state = GameState::MENU;
-                } else {
-                    settings.dropdownOpen = false;
-                }
+            settingsMenu.update(mx_virtual, my_virtual, mousePressed);
+            settingsMenu.draw();
+            settingsMenu.handleClick(window, game, resolutions, mx_virtual, my_virtual, mousePressed);
+            if (settingsMenu.isBackClicked(mx_virtual, my_virtual, mousePressed)) {
+                state = GameState::MENU;
             }
         } else if (state == GameState::PLAYING) {
             game.update();

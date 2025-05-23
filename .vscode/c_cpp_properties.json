@@ -4,9 +4,10 @@
       "name": "Win32",
       "includePath": [
         "${workspaceFolder}/src",
-        "${workspaceFolder}/include",
-        "C:/VulkanSDK/1.4.313.0/Include",
-        "C:/Users/lukea/vcpkg/installed/x64-windows/include"
+        "${workspaceFolder}/src/game",
+        "${workspaceFolder}/src/ui",
+        "${workspaceFolder}/**",
+        "C:/Users/<yourname>/vcpkg/installed/x64-windows/include"
       ],
       "defines": [],
       "windowsSdkVersion": "10.0.19041.0",
